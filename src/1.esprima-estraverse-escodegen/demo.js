@@ -24,5 +24,6 @@ estraverse.traverse(ast, {
   }
 });
 
+// ast -> code
 const newCode = escodegen.generate(ast);
 console.log(`\n【 newCode 】===>\n`, newCode);

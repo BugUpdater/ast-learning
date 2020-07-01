@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "yarn demo1",
-    "demo1": "node src/1.esprima-estraverse-escodegen/demo.js"
+    "demo1": "node src/1.esprima-estraverse-escodegen/demo.js",
+    "demo2": "node src/2.babel-buildin-plugins/demo.js"
   },
   "repository": "git@github.com:BugUpdater/ast-learning.git",
   "author": "willarchen <willarchen@163.com>",
   "license": "MIT",
   "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
     "escodegen": "^1.14.3",
     "esprima": "^4.0.1",
     "estraverse": "^5.1.0"
