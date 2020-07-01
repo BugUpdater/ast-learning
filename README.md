@@ -3,7 +3,7 @@
 
 [Online AST Explorer](https://astexplorer.net/)
 
-## Demo1 - esprima-estraverse-escodegen
+## Demo1 esprima-estraverse-escodegen
 ```sh
 yarn start
 # or
@@ -13,7 +13,7 @@ yarn demo1
 - **estraverse**: ast -> new ast (traverse and modify)
 - **escodegen**: new ast -> code
 
-## Demo2 - babel-buildin-plugins
+## Demo2 babel-buildin-plugins
 ```sh
 yarn demo2
 ```
@@ -30,7 +30,7 @@ Ref:　[Babel Documentation](https://babeljs.io)
 }
 ```
 
-## Demo3 - babel-custom-plugins
+## Demo3 babel-custom-plugins
 ```sh
 # arrow function
 yarn demo3-1
@@ -51,17 +51,17 @@ const fn = function (a, b) { return a + b; };
 ### Demo3-2 import partly
 ```js
 // input
-const codePure = `import { Button, Icon } from 'vant'`;
+import { Button, Icon } from 'vant';
 // output
 import Button from "vant/lib/Button";
 import Icon from "vant/lib/Icon";
 ```
 
-## Demo4 - babylon
+## Demo4 babylon
 ```sh
 yarn demo4
 ```
 [Babylon is a JavaScript parser used in Babel.](https://babeljs.io/docs/en/babylon)
 
-Use `babylon` to parse code rather than `@babel/core`.
-Use `@babel/traverse` and `@babel/generator` in `@babel/core`.
+- Use `babylon` to parse code rather than `@babel/core`.
+- Use `@babel/traverse` and `@babel/generator` in `@babel/core`.

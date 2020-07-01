@@ -1,10 +1,10 @@
 
 const babel = require('@babel/core');
 const t = require('@babel/types');
-const codePure = `import { Button, Icon } from 'vant'`;
+const codePure = `import { Button, Icon } from 'vant';`;
 // import Button from "vant/lib/Button";
 // import Icon from "vant/lib/Icon";
-const codeMixed = `import vant, { Button, Icon } from 'vant'`;
+const codeMixed = `import vant, { Button, Icon } from 'vant';`;
 // import vant from "vant";
 // import Button from "vant/lib/Button";
 // import Icon from "vant/lib/Icon";
