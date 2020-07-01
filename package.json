@@ -6,7 +6,8 @@
   "scripts": {
     "start": "yarn demo1",
     "demo1": "node src/1.esprima-estraverse-escodegen/demo.js",
-    "demo2": "node src/2.babel-buildin-plugins/demo.js"
+    "demo2": "node src/2.babel-buildin-plugins/demo.js",
+    "demo3-1": "node src/3.babel-custom-plugins/1.arrow-fn.js"
   },
   "repository": "git@github.com:BugUpdater/ast-learning.git",
   "author": "willarchen <willarchen@163.com>",
@@ -14,6 +15,7 @@
   "dependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
+    "@babel/types": "^7.10.4",
     "escodegen": "^1.14.3",
     "esprima": "^4.0.1",
     "estraverse": "^5.1.0"
