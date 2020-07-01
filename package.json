@@ -7,7 +7,8 @@
     "start": "yarn demo1",
     "demo1": "node src/1.esprima-estraverse-escodegen/demo.js",
     "demo2": "node src/2.babel-buildin-plugins/demo.js",
-    "demo3-1": "node src/3.babel-custom-plugins/1.arrow-fn.js"
+    "demo3-1": "node src/3.babel-custom-plugins/1.arrow-fn.js",
+    "demo3-2": "node src/3.babel-custom-plugins/2.import-partly.js"
   },
   "repository": "git@github.com:BugUpdater/ast-learning.git",
   "author": "willarchen <willarchen@163.com>",

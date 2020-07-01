@@ -33,6 +33,8 @@ Ref:　[Babel Documentation](https://babeljs.io)
 ```sh
 # arrow function
 yarn demo3-1
+# import partly
+yarn demo3-2
 ```
 Ref：[@babel/types Documentation](https://babeljs.io/docs/en/babel-types)
 
@@ -43,4 +45,13 @@ const fn = (a, b) => { return a + b; };
 const fn = (a, b) => a + b;
 // output
 const fn = function (a, b) { return a + b; };
+```
+
+### Demo3-2 import partly
+```js
+// input
+const codePure = `import { Button, Icon } from 'vant'`;
+// output
+import Button from "vant/lib/Button";
+import Icon from "vant/lib/Icon";
 ```
