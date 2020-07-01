@@ -1,5 +1,6 @@
 # ast-learning
 some code about ast demos
+(学习AST的代码笔记整理)
 
 [Online AST Explorer](https://astexplorer.net/)
 
@@ -18,8 +19,9 @@ yarn demo1
 yarn demo2
 ```
 Ref:　[Babel Documentation](https://babeljs.io)
-> - A **preset** item is a set of **plugins**.
-> - The **@babel/preset-env** includes **@babel/plugin-transform-arrow-functions**.
+
+- A **preset** item is a set of **plugins**.
+- The `@babel/preset-env` includes `@babel/plugin-transform-arrow-functions`.
 
 ```json
 // .babelrc
@@ -55,3 +57,12 @@ const codePure = `import { Button, Icon } from 'vant'`;
 import Button from "vant/lib/Button";
 import Icon from "vant/lib/Icon";
 ```
+
+## Demo4 - babylon
+```sh
+yarn demo4
+```
+[Babylon is a JavaScript parser used in Babel.](https://babeljs.io/docs/en/babylon)
+
+Use `babylon` to parse code rather than `@babel/core`.
+Use `@babel/traverse` and `@babel/generator` in `@babel/core`.
